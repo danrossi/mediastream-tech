@@ -12,7 +12,7 @@ import MediaStreamTech from './MediaStreamTech';
 
 const Tech = videojs.getComponent('Tech');
 
-Tech.registerTech('RTCSubscriberTech', RTCSubscriberTech);
+Tech.registerTech('MediaStreamTech', MediaStreamTech);
 ```
 
 Examples
