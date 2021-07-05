@@ -4,6 +4,9 @@
  * @author   Dan Rossi <danielr@electroteque.org>
  * @license  MIT
  */
+
+import videojs from 'video.js';
+
 const Tech = videojs.getComponent('Tech'),
     Html5 = Tech.techs_["Html5"],
     supportsSrcObject = 'srcObject' in HTMLMediaElement.prototype;
